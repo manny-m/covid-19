@@ -1,5 +1,11 @@
 # covid-19
 
+Small React app (with Typescript) that uses the [NYT Covid data](https://github.com/nytimes/covid-19-data) to visualize the cumulative counts of cases and deaths of coronavirus in a choropleth of the United States. The data is fetched on the initialization of the app so the latest data from the NYT is always being displayed. A slider can be used to quickly compare data by date, through a quantile or quantize color scale.
+
+## Notable Dependencies
+- [Material UI](https://www.npmjs.com/package/@material-ui/core)
+- [neat-csv](https://www.npmjs.com/package/neat-csv)
+- [react-simple-maps](https://www.npmjs.com/package/react-simple-maps)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
