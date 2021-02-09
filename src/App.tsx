@@ -22,7 +22,7 @@ const customTheme = createMuiTheme({
     success:{ main: successColor },
     type:'dark'
   }
-  test
+  test1
 });
 
 
